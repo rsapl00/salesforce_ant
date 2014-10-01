@@ -5,6 +5,7 @@ SafewayConfig__c[] books = Trigger.new;
 
 SafewayDiscountCalculator.applyDiscount(books);
 // test
+// test again
 
 
 
