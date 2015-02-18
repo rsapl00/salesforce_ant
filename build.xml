@@ -10,14 +10,11 @@
     </taskdef>
 
     
-
     <!-- Retrieve an unpackaged set of metadata from your org -->
-    <!-- The file unpackaged/package.xml lists what is to be retrieved -->
+    <!-- The file unpackaged/package.xml lists what to be retrieved -->
     
     <target name="deployUnpackaged">
       <sf:deploy username="${env.username}" password="${env.password}" serverurl="${env.serverurl}" maxPoll="${env.maxPoll}" deployRoot="src" rollbackOnError="true"/>
     </target>
-
-
 
 </project>
